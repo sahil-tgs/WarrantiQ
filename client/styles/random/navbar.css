@@ -1,0 +1,99 @@
+/*navbar.css*/
+.dwar-navbar-container {
+  width: 90%;
+  height: 60px;
+  padding: 10px 5%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.dwar-logo-container {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 5px;
+}
+
+.dwar-logo-container a {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dwar-logo-container a img {
+  height: 30px;
+  width: auto;
+}
+
+.dwar-element-container {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dwar-element-container .dwar-list-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 10px;
+}
+
+.dwar-element-container .dwar-list-container a {
+  text-decoration: none;
+  border: none;
+  font-family: $quicks;
+  font-weight: 500;
+  margin: 0 10px;
+  color: $white;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.dwar-element-container .dwar-list-container a:hover {
+  color: $blue_dark;
+}
+
+.dwar-element-container .dwar-btn-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dwar-element-container .dwar-btn-container button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: $blue;
+  text-align: center;
+  color: $white;
+  border: 2px solid $blue;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.dwar-element-container .dwar-btn-container button:hover {
+  background-color: transparent;
+}
+
+.dwar-notification-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top

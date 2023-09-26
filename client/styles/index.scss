@@ -1,0 +1,20 @@
+@import "variables";
+@import "./component/layout/index.scss";
+@import "./component/profile/index.scss";
+@import "./component/scanqr/index.scss";
+@import "./component/product/index.scss";
+
+.main-dwar-body{
+    width: 100%;
+    height: fit-content;
+    min-height: 200vh;
+    position: relative;
+}
+
+
+.blue{
+    color: $blue;
+}
+.dark-blue{
+    color: $blue_dark;
+}
