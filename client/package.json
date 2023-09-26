@@ -34,5 +34,14 @@
     "twgl.js": "^5.5.3",
     "wagmi": "^0.12.2",
     "web3.storage": "^4.5.4"
-  }
+  },
+  "eslintConfig": {
+    "extends": "next"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
